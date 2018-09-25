@@ -1,0 +1,504 @@
+---- SAMPLE_AWB_Init Matches (2 in 1 files) ----
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_Init(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    stRegister.stAwbExpFunc.pfn_awb_init  = SAMPLE_AWB_Init;
+---- pfn_awb_init Matches (6 in 5 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_awb_init)(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_awb_init)(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            if (HI_NULL != pstLib->stAwbRegsiter.stAwbExpFunc.pfn_awb_init)
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                pstLib->stAwbRegsiter.stAwbExpFunc.pfn_awb_init(
+Mpi_isp_entry.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):    ISP_CHECK_POINTER(pstRegister->stAwbExpFunc.pfn_awb_init);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    stRegister.stAwbExpFunc.pfn_awb_init  = SAMPLE_AWB_Init;
+---- SAMPLE_AWB_Init Matches (2 in 1 files) ----
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_Init(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    stRegister.stAwbExpFunc.pfn_awb_init  = SAMPLE_AWB_Init;
+---- s32Handle Matches (175 in 12 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_ae_init)(HI_S32 s32Handle, const ISP_AE_PARAM_S *pstAeParam);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_ae_run)(HI_S32 s32Handle,
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_ae_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_ae_exit)(HI_S32 s32Handle);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_awb_init)(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_awb_run)(HI_S32 s32Handle,
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_awb_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_awb_exit)(HI_S32 s32Handle);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_af_init)(HI_S32 s32Handle, const ISP_AF_PARAM_S *pstAfParam);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_af_run)(HI_S32 s32Handle,
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_af_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_af_exit)(HI_S32 s32Handle);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_ae_init)(HI_S32 s32Handle, const ISP_AE_PARAM_S *pstAeParam);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_ae_run)(HI_S32 s32Handle,
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_ae_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_ae_exit)(HI_S32 s32Handle);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_awb_init)(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_awb_run)(HI_S32 s32Handle,
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_awb_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_awb_exit)(HI_S32 s32Handle);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_af_init)(HI_S32 s32Handle, const ISP_AF_PARAM_S *pstAfParam);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_af_run)(HI_S32 s32Handle,
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_af_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_af_exit)(HI_S32 s32Handle);
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_EndJob(TDE_HANDLE s32Handle, HI_BOOL bSync, HI_BOOL bBlock, HI_U32 u32TimeOut);
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_CancelJob(TDE_HANDLE s32Handle);
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_WaitForDone(TDE_HANDLE s32Handle);
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_QuickCopy(TDE_HANDLE s32Handle, TDE2_SURFACE_S* pstSrc, TDE2_RECT_S  *pstSrcRect,
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_QuickFill(TDE_HANDLE s32Handle, TDE2_SURFACE_S* pstDst, TDE2_RECT_S *pstDstRect,
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_QuickResize(TDE_HANDLE s32Handle, TDE2_SURFACE_S* pstSrc, TDE2_RECT_S  *pstSrcRect,
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_QuickDeflicker(TDE_HANDLE s32Handle, TDE2_SURFACE_S* pstSrc, TDE2_RECT_S  *pstSrcRect,
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_Bitblit(TDE_HANDLE s32Handle, TDE2_SURFACE_S* pstBackGround, TDE2_RECT_S  *pstBackGroundRect,
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_SolidDraw(TDE_HANDLE s32Handle, TDE2_SURFACE_S* pstForeGround, TDE2_RECT_S  *pstForeGroundRect,
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_MbBlit(TDE_HANDLE s32Handle, TDE2_MB_S* pstMB, TDE2_RECT_S  *pstMbRect, TDE2_SURFACE_S* pstDst, TDE2_RECT_S  *pstDstRect,
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_BitmapMaskRop(TDE_HANDLE s32Handle, 
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32      HI_TDE2_BitmapMaskBlend(TDE_HANDLE s32Handle, 
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32 HI_TDE2_PatternFill(TDE_HANDLE s32Handle, TDE2_SURFACE_S *pstBackGround, 
+Hi_tde_api.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32 HI_TDE2_MultiBlending(TDE_HANDLE s32Handle, TDE_SURFACE_LIST_S *pstSurfaceList);
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):#define ISP_AE_CHECK_HANDLE_ID(s32Handle)\
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):	if (((s32Handle) < 0) || ((s32Handle) >= MAX_AE_LIB_NUM))\
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):		ISP_TRACE(HI_DBG_ERR, "Illegal handle id %d in %s!\n", (s32Handle), __FUNCTION__);\
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):#define ISP_AWB_CHECK_HANDLE_ID(s32Handle)\
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):	if (((s32Handle) < 0) || ((s32Handle) >= MAX_AWB_LIB_NUM))\
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):		ISP_TRACE(HI_DBG_ERR, "Illegal handle id %d in %s!\n", (s32Handle), __FUNCTION__);\
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):#define ISP_AF_CHECK_HANDLE_ID(s32Handle)\
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):	if (((s32Handle) < 0) || ((s32Handle) >= MAX_AF_LIB_NUM))\
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):		ISP_TRACE(HI_DBG_ERR, "Illegal handle id %d in %s!\n", (s32Handle), __FUNCTION__);\
+Mpi_adec.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32 HI_MPI_ADEC_UnRegisterDecoder(HI_S32 s32Handle);
+Mpi_aenc.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32 HI_MPI_AENC_UnRegisterEncoder(HI_S32 s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_ExtRegsInitialize(HI_S32 s32Handle)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    HI_U8 u8Id = AE_GET_EXTREG_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_ReadExtRegs(HI_S32 s32Handle)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    HI_U8 u8Id = AE_GET_EXTREG_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_UpdateExtRegs(HI_S32 s32Handle)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    HI_U8 u8Id = AE_GET_EXTREG_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_Calculate(HI_S32 s32Handle)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_IspRegsInit(HI_S32 s32Handle)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_Init(HI_S32 s32Handle, const ISP_AE_PARAM_S *pstAeParam)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    AE_CHECK_HANDLE_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    u8Id = AE_GET_EXTREG_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):        printf("Ae lib(%d) vreg init failed!\n", s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    SAMPLE_AE_ExtRegsInitialize(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_Run(HI_S32 s32Handle, const ISP_AE_INFO_S *pstAeInfo,
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    AE_CHECK_HANDLE_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):        SAMPLE_AE_IspRegsInit(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):        SAMPLE_AE_ReadExtRegs(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):        SAMPLE_AE_Calculate(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):        SAMPLE_AE_UpdateExtRegs(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_Ctrl(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    AE_CHECK_HANDLE_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_Exit(HI_S32 s32Handle)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    AE_CHECK_HANDLE_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    u8Id = AE_GET_EXTREG_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):        printf("Ae lib(%d) vreg exit failed!\n", s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    HI_S32  s32Handle;
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    s32Handle = pstAeLib->s32Id;
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    AE_CHECK_HANDLE_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    HI_S32  s32Handle;
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    s32Handle = pstAeLib->s32Id;
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    AE_CHECK_HANDLE_ID(s32Handle);
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx = AE_GET_CTX(s32Handle);
+Sample_ae_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):#define AE_GET_EXTREG_ID(s32Handle)   ((0 == (s32Handle)) ? 0x4 : 0x5)
+Sample_ae_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):#define AE_GET_CTX(s32Handle)           (&g_astAeCtx_sample[s32Handle])
+Sample_ae_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):#define AE_CHECK_HANDLE_ID(s32Handle)\
+Sample_ae_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    if (((s32Handle) < 0) || ((s32Handle) >= MAX_AE_LIB_NUM))\
+Sample_ae_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):        printf("Illegal handle id %d in %s!\n", (s32Handle), __FUNCTION__);\
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_ExtRegsInitialize(HI_S32 s32Handle)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    u8Id = AWB_GET_EXTREG_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_ReadExtRegs(HI_S32 s32Handle)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    u8Id = AWB_GET_EXTREG_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_UpdateExtRegs(HI_S32 s32Handle)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    u8Id = AWB_GET_EXTREG_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_IspRegsInit(HI_S32 s32Handle)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_Calculate(HI_S32 s32Handle)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_Init(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    AWB_CHECK_HANDLE_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    u8Id = AWB_GET_EXTREG_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):        printf("Awb lib(%d) vreg init failed!\n", s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    SAMPLE_AWB_ExtRegsInitialize(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_Run(HI_S32 s32Handle, const ISP_AWB_INFO_S *pstAwbInfo,
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    AWB_CHECK_HANDLE_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):        SAMPLE_AWB_IspRegsInit(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):        SAMPLE_AWB_ReadExtRegs(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):        SAMPLE_AWB_Calculate(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):        SAMPLE_AWB_UpdateExtRegs(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_Ctrl(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    AWB_CHECK_HANDLE_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_Exit(HI_S32 s32Handle)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    AWB_CHECK_HANDLE_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    u8Id = AWB_GET_EXTREG_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):        printf("Awb lib(%d) vreg exit failed!\n", s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    HI_S32  s32Handle;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    s32Handle = pstAwbLib->s32Id;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    AWB_CHECK_HANDLE_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    HI_S32  s32Handle;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    s32Handle = pstAwbLib->s32Id;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    AWB_CHECK_HANDLE_ID(s32Handle);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx = AWB_GET_CTX(s32Handle);
+Sample_awb_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):#define AWB_GET_EXTREG_ID(s32Handle)   ((0 == (s32Handle)) ? 0x4 : 0x5)
+Sample_awb_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):#define AWB_GET_CTX(s32Handle)           (&g_astAwbCtx[s32Handle])
+Sample_awb_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):#define AWB_CHECK_HANDLE_ID(s32Handle)\
+Sample_awb_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    if (((s32Handle) < 0) || ((s32Handle) >= MAX_AWB_LIB_NUM))\
+Sample_awb_adp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):        printf("Illegal handle id %d in %s!\n", (s32Handle), __FUNCTION__);\
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):    TDE_HANDLE s32Handle;
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):                s32Handle = HI_TDE2_BeginJob();
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):                if (HI_ERR_TDE_INVALID_HANDLE == s32Handle)
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):                s32Ret = HI_TDE2_QuickCopy(s32Handle, &stSrc, &stSrcRect, &stDst, &stDstRect);
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):                    HI_TDE2_CancelJob(s32Handle);
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):                s32Ret = HI_TDE2_EndJob(s32Handle, HI_FALSE, HI_TRUE, 10);
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):                    HI_TDE2_CancelJob(s32Handle);
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):    TDE_HANDLE s32Handle;
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):        s32Handle = HI_TDE2_BeginJob();
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):        if (HI_ERR_TDE_INVALID_HANDLE == s32Handle)
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):        s32Ret = HI_TDE2_QuickCopy(s32Handle, &stSrc, &stSrcRect, &stDst, &stDstRect);
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):            HI_TDE2_CancelJob(s32Handle);
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):        s32Ret = HI_TDE2_EndJob(s32Handle, HI_FALSE, HI_TRUE, 10);
+Sample_hifb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\hifb):            HI_TDE2_CancelJob(s32Handle);
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):    TDE_HANDLE s32Handle;
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):    s32Handle = HI_TDE2_BeginJob();
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):    if(HI_ERR_TDE_INVALID_HANDLE == s32Handle)
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):    s32Ret = HI_TDE2_QuickCopy(s32Handle, &g_stBackGround, &stSrcRect, 
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):		HI_TDE2_CancelJob(s32Handle);
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):        s32Ret = HI_TDE2_Bitblit(s32Handle, &g_stScreen[u32NextOnShow], &stDstRect, 
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):			HI_TDE2_CancelJob(s32Handle);
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):    s32Ret = HI_TDE2_EndJob(s32Handle, HI_FALSE, HI_TRUE, 10);
+Sample_tde.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\tde):		HI_TDE2_CancelJob(s32Handle);
+---- HI_MPI_AWB_SensorRegCallBack Matches (5 in 5 files) ----
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):    s32Ret = HI_MPI_AWB_SensorRegCallBack(IspDev, &stLib, AR0130_ID, &stAwbRegister);
+Mpi_awb.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\include):HI_S32 HI_MPI_AWB_SensorRegCallBack(ISP_DEV IspDev, ALG_LIB_S *pstAwbLib, SENSOR_ID SensorId,
+Mpi_awb.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32 HI_MPI_AWB_SensorRegCallBack(ISP_DEV IspDev, ALG_LIB_S *pstAwbLib, SENSOR_ID SensorId,
+Ov9712_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\omnivision_ov9712):    s32Ret = HI_MPI_AWB_SensorRegCallBack(IspDev, &stLib, OV9712_ID, &stAwbRegister);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 HI_MPI_AWB_SensorRegCallBack(ISP_DEV IspDev, ALG_LIB_S *pstAwbLib, SENSOR_ID SensorId,
+---- au16GainOffset Matches (13 in 5 files) ----
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):                pstAwbSnsDft->au16GainOffset[i] = g_AwbDft[0].au16GainOffset[i];
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):    pstAwbSnsDft->au16GainOffset[0] = 0x185;
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):    pstAwbSnsDft->au16GainOffset[1] = 0x100;
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):    pstAwbSnsDft->au16GainOffset[2] = 0x100;
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):    pstAwbSnsDft->au16GainOffset[3] = 0x1A1;
+Hi_awb_comm.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\include):    HI_U16  au16GainOffset[4];  /* gain offset for white balance */
+Hi_awb_comm.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_U16  au16GainOffset[4];  /* gain offset for white balance */
+Ov9712_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\omnivision_ov9712):    pstAwbSnsDft->au16GainOffset[0] = 0x17e;    
+Ov9712_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\omnivision_ov9712):    pstAwbSnsDft->au16GainOffset[1] = 0x100;    
+Ov9712_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\omnivision_ov9712):    pstAwbSnsDft->au16GainOffset[2] = 0x100;    
+Ov9712_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\omnivision_ov9712):    pstAwbSnsDft->au16GainOffset[3] = 0x179;    
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):            pstAwbCtx->stSnsDft.au16GainOffset[i] << 8;
+---- u16MeteringCrRefMaxAwb Matches (14 in 7 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_U16  u16MeteringCrRefMaxAwb;
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_U16  u16MeteringCrRefMaxAwb;
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_U16  u16MeteringCrRefMaxAwb;
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_U16  u16MeteringCrRefMaxAwb;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):        hi_isp_metering_cr_ref_max_awb_sum_write(pstRegCfgInfo->stAwbRegCfg3.u16MeteringCrRefMaxAwb);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.u16MeteringCrRefMaxAwb = MIN(pstAwbResult->stRawStatAttr.u16MeteringCrRefMaxAwb, 0xFFF);
+Isp_regcfg.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        pstRegCfgInfo->stAwbRegCfg3.u16MeteringCrRefMaxAwb = hi_isp_metering_cr_ref_max_awb_sum_read();
+Isp_regcfg.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        hi_isp_metering_cr_ref_max_awb_sum_write(pstRegCfgInfo->stAwbRegCfg3.u16MeteringCrRefMaxAwb);
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    HI_U16  u16MeteringCrRefMaxAwb;
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    HI_U16  u16MeteringCrRefMaxAwb;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstStatAttr->u16MeteringCrRefMaxAwb = 256*2;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstRawStatAttr->u16MeteringCrRefMaxAwb = 0x130;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstRawStatAttr->u16MeteringCrRefHighAwb = pstRawStatAttr->u16MeteringCrRefMaxAwb;
+---- stStatAttr Matches (11 in 5 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    ISP_AE_STAT_ATTR_S stStatAttr;
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    ISP_AWB_STAT_ATTR_S stStatAttr;
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    ISP_AE_STAT_ATTR_S stStatAttr;
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    ISP_AWB_STAT_ATTR_S stStatAttr;
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    if (stAeResult.stStatAttr.bChange)
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                    stAeResult.stStatAttr.au8WeightTable[i][j];
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                stAeResult.stStatAttr.au8MeteringHistThresh[i];
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstStatAttr = &pstAeCtx->stAeResult.stStatAttr;
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    pstAeCtx->stAeResult.stStatAttr.bChange = HI_FALSE;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstStatAttr = &pstAwbCtx->stAwbResult.stStatAttr;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstAwbCtx->stAwbResult.stStatAttr.bChange = HI_FALSE;
+---- au8WeightTable Matches (12 in 7 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_U8   au8WeightTable[AE_ZONE_ROW][AE_ZONE_COLUMN];
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_U8   au8WeightTable[AE_ZONE_ROW][AE_ZONE_COLUMN];
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):	        	u32CombinWeight |= (pstRegCfgInfo->stAeRegCfg1.au8WeightTable[i][j] << (8*u32CombinWeightNum));
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                ((ISP_REG_CFG_S *)pRegCfg)->stAeRegCfg1.au8WeightTable[i][j] =
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                    stAeResult.stStatAttr.au8WeightTable[i][j];
+Isp_regcfg.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):				pstRegCfgInfo->stAeRegCfg1.au8WeightTable[i][j] = ((u32CombinWei >> (8*u32CombinWeiNum)) & 0xff);
+Isp_regcfg.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):	        	u32CombinWeight |= (pstRegCfgInfo->stAeRegCfg1.au8WeightTable[i][j] << (8*u32CombinWeightNum));
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    HI_U8   au8WeightTable[15][17];
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    HI_U8 au8WeightTable[15][17]={
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    memcpy(pstStatAttr->au8WeightTable, au8WeightTable, sizeof(au8WeightTable));
+---- stRawStatAttr Matches (12 in 4 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    ISP_AWB_RAW_STAT_ATTR_S stRawStatAttr;
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    ISP_AWB_RAW_STAT_ATTR_S stRawStatAttr;
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    if (pstAwbResult->stRawStatAttr.bChange)
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.bAboveWhiteLevelClip = pstAwbResult->stRawStatAttr.bAboveWhiteLevelClip;
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.bBelowBlackLevelClip = pstAwbResult->stRawStatAttr.bBelowBlackLevelClip;
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.u16MeteringWhiteLevelAwb = MIN(pstAwbResult->stRawStatAttr.u16MeteringWhiteLevelAwb, 0xFFF);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.u16MeteringBlackLevelAwb = MIN(pstAwbResult->stRawStatAttr.u16MeteringBlackLevelAwb, 0xFFF);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.u16MeteringCrRefMaxAwb = MIN(pstAwbResult->stRawStatAttr.u16MeteringCrRefMaxAwb, 0xFFF);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.u16MeteringCrRefMinAwb = MIN(pstAwbResult->stRawStatAttr.u16MeteringCrRefMinAwb, 0xFFF);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.u16MeteringCbRefMaxAwb = MIN(pstAwbResult->stRawStatAttr.u16MeteringCbRefMaxAwb, 0xFFF);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.u16MeteringCbRefMinAwb = MIN(pstAwbResult->stRawStatAttr.u16MeteringCbRefMinAwb, 0xFFF);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstRawStatAttr = &pstAwbCtx->stAwbResult.stRawStatAttr;
+---- bAboveWhiteLevelClip Matches (9 in 7 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_BOOL bAboveWhiteLevelClip;
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_BOOL bAboveWhiteLevelClip;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):        hi_isp_metering_max_clip_write(pstRegCfgInfo->stAwbRegCfg3.bAboveWhiteLevelClip);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            pstRegCfg->stAwbRegCfg3.bAboveWhiteLevelClip = pstAwbResult->stRawStatAttr.bAboveWhiteLevelClip;
+Isp_regcfg.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        pstRegCfgInfo->stAwbRegCfg3.bAboveWhiteLevelClip = hi_isp_metering_max_clip_read();
+Isp_regcfg.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        hi_isp_metering_max_clip_write(pstRegCfgInfo->stAwbRegCfg3.bAboveWhiteLevelClip);
+Mkp_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    HI_BOOL bAboveWhiteLevelClip;
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    pstRawStatAttr->bAboveWhiteLevelClip = HI_TRUE;
+---- pfn_awb_init Matches (6 in 5 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_awb_init)(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_awb_init)(HI_S32 s32Handle, const ISP_AWB_PARAM_S *pstAwbParam);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            if (HI_NULL != pstLib->stAwbRegsiter.stAwbExpFunc.pfn_awb_init)
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                pstLib->stAwbRegsiter.stAwbExpFunc.pfn_awb_init(
+Mpi_isp_entry.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):    ISP_CHECK_POINTER(pstRegister->stAwbExpFunc.pfn_awb_init);
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    stRegister.stAwbExpFunc.pfn_awb_init  = SAMPLE_AWB_Init;
+----  HI_MPI_ISP_Init Matches (3 in 1 files) ----
+Sample_comm_isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):        printf("%s: HI_MPI_ISP_Init failed!\n", __FUNCTION__);
+Sample_comm_isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):    s32Ret = HI_MPI_ISP_Init(IspDev);
+Sample_comm_isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):        printf("%s: HI_MPI_ISP_Init failed!\n", __FUNCTION__);
+---- u32Cmd Matches (59 in 28 files) ----
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_ae_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_awb_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32 (*pfn_af_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_ae_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_awb_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Hi_comm_3a.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32 (*pfn_af_ctrl)(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue);
+Isp_acm.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_AcmCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_acm.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_AeCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue);
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_AeCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                    pstLib->stAlgLib.s32Id, u32Cmd, pValue);
+Isp_af.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_AfCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_af.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                    pstLib->stAlgLib.s32Id, u32Cmd, pValue);
+Isp_alg.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_alg.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                astAlgs[i].stAlgFunc.pfn_alg_ctrl(IspDev, u32Cmd, pValue);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_AwbCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_AwbCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                    pstLib->stAlgLib.s32Id, u32Cmd, pValue);
+Isp_black_offset.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_BlcCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_black_offset.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_cac.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_CacCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_cac.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_common.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_CommCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_common.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_compander.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_CompanderCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_compander.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_csc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_CscCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_csc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_defect_pixel.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_DpCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_defect_pixel.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_demosaic.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_DemosaicCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_demosaic.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_drc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_DrcCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_drc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_fpn.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_FPNCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_fpn.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_frame_switch_wdr.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_FrameWDRCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_frame_switch_wdr.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_gamma.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_GammaCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_gamma.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_green_equalization.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_GeCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_green_equalization.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_lsc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_LscCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_lsc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_main.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):    HI_S32 (*pfn_alg_ctrl)(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue);
+Isp_noise_reduction.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_NrCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_noise_reduction.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_pregamma.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_GammaFeCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_pregamma.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_rgbir.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_RgbirCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_rgbir.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_sharpen.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_SharpenCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_sharpen.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Isp_uvnr.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):HI_S32 ISP_UvnrCtrl(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue)
+Isp_uvnr.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    switch (u32Cmd)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):HI_S32 SAMPLE_AE_Ctrl(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue)
+Sample_ae_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_ae):    switch (u32Cmd)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):HI_S32 SAMPLE_AWB_Ctrl(HI_S32 s32Handle, HI_U32 u32Cmd, HI_VOID *pValue)
+Sample_awb_adp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\3a\sample_awb):    switch (u32Cmd)
+---- HI_MPI_ISP_SetNRAttr Matches (3 in 3 files) ----
+Mpi_isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):HI_S32 HI_MPI_ISP_SetNRAttr(ISP_DEV IspDev, const ISP_NR_ATTR_S *pstNRAttr)
+Mpi_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):HI_S32 HI_MPI_ISP_SetNRAttr(ISP_DEV IspDev, const ISP_NR_ATTR_S *pstNRAttr);
+Mpi_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32 HI_MPI_ISP_SetNRAttr(ISP_DEV IspDev, const ISP_NR_ATTR_S *pstNRAttr);
+---- HI_MPI_ISP_SetBlackLevelAttr Matches (3 in 3 files) ----
+Mpi_isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):HI_S32 HI_MPI_ISP_SetBlackLevelAttr(ISP_DEV IspDev, const ISP_BLACK_LEVEL_S *pstBlackLevel)
+Mpi_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):HI_S32 HI_MPI_ISP_SetBlackLevelAttr(ISP_DEV IspDev, const ISP_BLACK_LEVEL_S *pstBlackLevel);
+Mpi_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32 HI_MPI_ISP_SetBlackLevelAttr(ISP_DEV IspDev, const ISP_BLACK_LEVEL_S *pstBlackLevel);
+---- pfn_cmos_set_image_mode Matches (6 in 5 files) ----
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):    pstSensorExpFunc->pfn_cmos_set_image_mode = cmos_set_image_mode;
+Hi_comm_sns.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_S32(*pfn_cmos_set_image_mode)(ISP_CMOS_SENSOR_IMAGE_MODE_S *pstSensorImageMode);
+Hi_comm_sns.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_S32(*pfn_cmos_set_image_mode)(ISP_CMOS_SENSOR_IMAGE_MODE_S *pstSensorImageMode);
+Isp_sensor.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):    if (HI_NULL != pstSensor->stRegister.stSnsExp.pfn_cmos_set_image_mode)
+Isp_sensor.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        if (HI_SUCCESS != pstSensor->stRegister.stSnsExp.pfn_cmos_set_image_mode(pstSnsImageMode))
+Ov9712_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\omnivision_ov9712):    pstSensorExpFunc->pfn_cmos_set_image_mode = cmos_set_image_mode;
+---- pfn_cmos_sensor_init Matches (6 in 5 files) ----
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):    pstSensorExpFunc->pfn_cmos_sensor_init = sensor_init;
+Hi_comm_sns.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_VOID(*pfn_cmos_sensor_init)(HI_VOID);
+Hi_comm_sns.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_VOID(*pfn_cmos_sensor_init)(HI_VOID);
+Isp_sensor.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):    if (HI_NULL != pstSensor->stRegister.stSnsExp.pfn_cmos_sensor_init)
+Isp_sensor.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        pstSensor->stRegister.stSnsExp.pfn_cmos_sensor_init();
+Ov9712_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\omnivision_ov9712):    pstSensorExpFunc->pfn_cmos_sensor_init = sensor_init;
+---- u8IspImageModeFlag Matches (4 in 3 files) ----
+Isp_defaults.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):    pstIspCtx->u8IspImageModeFlag = 0;
+Isp_main.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):    if (0 == pstIspCtx->u8IspImageModeFlag)
+Isp_main.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):        pstIspCtx->u8IspImageModeFlag = 1;
+Isp_main.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):    HI_U8                    u8IspImageModeFlag;
+---- pfn_alg_ctrl Matches (29 in 26 files) ----
+Isp_acm.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_AcmCtrl;
+Isp_ae.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_AeCtrl;
+Isp_af.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_AfCtrl;
+Isp_alg.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            if (HI_NULL != astAlgs[i].stAlgFunc.pfn_alg_ctrl)
+Isp_alg.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):                astAlgs[i].stAlgFunc.pfn_alg_ctrl(IspDev, u32Cmd, pValue);
+Isp_awb.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_AwbCtrl;
+Isp_black_offset.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_BlcCtrl;
+Isp_cac.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_CacCtrl;
+Isp_common.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_CommCtrl;
+Isp_compander.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_CompanderCtrl;
+Isp_csc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_CscCtrl;
+Isp_defect_pixel.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_DpCtrl;
+Isp_demosaic.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_DemosaicCtrl;
+Isp_drc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_DrcCtrl;
+Isp_fpn.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_FPNCtrl;
+Isp_frame_switch_wdr.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_FrameWDRCtrl;
+Isp_gamma.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_GammaCtrl;
+Isp_green_equalization.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_GeCtrl;
+Isp_lsc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_LscCtrl;
+Isp_main.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):            if (HI_NULL != pstIspCtx->astAlgs[i].stAlgFunc.pfn_alg_ctrl)
+Isp_main.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):                pstIspCtx->astAlgs[i].stAlgFunc.pfn_alg_ctrl(IspDev, ISP_DCFINFO_GET, pstIspCtx->stDcfInfoCtrl.pstIspDCF);
+Isp_main.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):    HI_S32 (*pfn_alg_ctrl)(ISP_DEV IspDev, HI_U32 u32Cmd, HI_VOID *pValue);
+Isp_noise_reduction.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_NrCtrl;
+Isp_pregamma.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_GammaFeCtrl;
+Isp_proc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):            if (HI_NULL != astAlgs[i].stAlgFunc.pfn_alg_ctrl)
+Isp_proc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):                astAlgs[i].stAlgFunc.pfn_alg_ctrl(IspDev, ISP_PROC_WRITE, &stProcCtrl);
+Isp_rgbir.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_RgbirCtrl;
+Isp_sharpen.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_SharpenCtrl;
+Isp_uvnr.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):    pstAlgs->stAlgFunc.pfn_alg_ctrl = ISP_UvnrCtrl;
+---- pfn_cmos_set_wdr_mode Matches (6 in 5 files) ----
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):    pstSensorExpFunc->pfn_cmos_set_wdr_mode = cmos_set_wdr_mode;
+Hi_comm_sns.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):    HI_VOID(*pfn_cmos_set_wdr_mode)(HI_U8 u8Mode);
+Hi_comm_sns.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    HI_VOID(*pfn_cmos_set_wdr_mode)(HI_U8 u8Mode);
+Isp_sensor.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):    if (HI_NULL != pstSensor->stRegister.stSnsExp.pfn_cmos_set_wdr_mode)
+Isp_sensor.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        pstSensor->stRegister.stSnsExp.pfn_cmos_set_wdr_mode(u8Mode);
+Ov9712_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\omnivision_ov9712):    pstSensorExpFunc->pfn_cmos_set_wdr_mode = cmos_set_wdr_mode;
+---- stStatInfo Matches (24 in 3 files) ----
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):        pstDrvCtx->stStatisticsBuf.astNode[i].stStatInfo.u32PhyAddr =
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):        pstDrvCtx->stStatisticsBuf.astNode[i].stStatInfo.pVirtAddr =
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    pstDrvCtx->stStatisticsBuf.astNode[0].stStatInfo.pVirtAddr = HI_NULL;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    pstDrvCtx->stStatisticsBuf.astNode[1].stStatInfo.pVirtAddr = HI_NULL;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    pstDrvCtx->stStatisticsBuf.astNode[0].stStatInfo.u32PhyAddr = 0;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    pstDrvCtx->stStatisticsBuf.astNode[1].stStatInfo.u32PhyAddr = 0;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    *ppstStatInfo = &pstNode->stStatInfo;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):        if (pstNode->stStatInfo.u32PhyAddr == pstStatInfo->u32PhyAddr)
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):            pstNode->stStatInfo.unKey.u32Key = pstStatInfo->unKey.u32Key;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    ISP_DRV_StatisticsRead(&pstNode->stStatInfo);    
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):            ISP_STAT_INFO_S stStatInfo;
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):            if (copy_from_user(&stStatInfo, argp, sizeof(ISP_STAT_INFO_S)))
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):            return ISP_DRV_StatBufUserPut(IspDev, &stStatInfo);
+Isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    ISP_STAT_INFO_S stStatInfo;
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):    ISP_STAT_INFO_S stStatInfo;
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        s32Ret = ioctl(g_as32IspFd[IspDev], ISP_STAT_BUF_GET, &pstStat->stStatInfo);
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):            pstStat->stStatInfo.pVirtAddr = pstStat->pStatVirtAddr +
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):                (pstStat->stStatInfo.u32PhyAddr - pstStat->u32StatPhyaddr);
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):            pstStat->stStatInfo.pVirtAddr = HI_NULL;
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):    if (HI_NULL == pstStat->stStatInfo.pVirtAddr)
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):    *ppStat = pstStat->stStatInfo.pVirtAddr;
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):    pstStat->stStatInfo.unKey.u32Key = hi_ext_system_statistics_ctrl_read();
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        s32Ret = ioctl(g_as32IspFd[IspDev], ISP_STAT_BUF_PUT, &pstStat->stStatInfo);
+Isp_statistics.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\arch\hi3518e):        pstStat->stStatInfo.pVirtAddr = HI_NULL;
+---- ISP_DRV_StatBufExit Matches (3 in 1 files) ----
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):HI_S32 ISP_DRV_StatBufExit(ISP_DEV IspDev)
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):            return ISP_DRV_StatBufExit(IspDev);
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    ISP_DRV_StatBufExit(0);
+---- ISP_ioctl Matches (2 in 1 files) ----
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):static long ISP_ioctl(struct file *file, unsigned int cmd, unsigned long arg)
+Isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):    .unlocked_ioctl      = ISP_ioctl,
+---- HI_MPI_VPSS_GetDepth Matches (1 in 1 files) ----
+Mpi_vpss.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):HI_S32 HI_MPI_VPSS_GetDepth(VPSS_GRP VpssGrp, VPSS_CHN VpssChn, HI_U32 *pu32Depth);
+---- hiISP_AWB_ATTR_S Matches (2 in 2 files) ----
+Hi_comm_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\include):typedef struct hiISP_AWB_ATTR_S
+Hi_comm_isp.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):typedef struct hiISP_AWB_ATTR_S
+---- s32Cnt Matches (33 in 2 files) ----
+Sample_comm.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):     HI_S32  s32Cnt;
+Sample_comm.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):HI_S32 SAMPLE_COMM_VENC_StartGetStream(HI_S32 s32Cnt);
+Sample_comm.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):HI_S32 SAMPLE_COMM_VENC_StartGetStream_Svc_t(HI_S32 s32Cnt);
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):    s32ChnTotal = pstPara->s32Cnt;
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):	HI_S32 s32Cnt=0;
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):    s32ChnTotal = pstPara->s32Cnt;
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):		for(s32Cnt =0; s32Cnt<3; s32Cnt++)
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):	    	sprintf(aszFileName[i+s32Cnt], "Tid%d%s", i+s32Cnt, szFilePostfix);
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):	        pFile[i+s32Cnt] = fopen(aszFileName[i+s32Cnt], "wb");
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):	        if (!pFile[i+s32Cnt])
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):	                   aszFileName[i+s32Cnt]);
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):					for(s32Cnt=0;s32Cnt<3;s32Cnt++)
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):						switch(s32Cnt)
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):									s32Ret = SAMPLE_COMM_VENC_SaveStream(enPayLoadType[i], pFile[i+s32Cnt], &stStream);
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):									s32Ret = SAMPLE_COMM_VENC_SaveStream(enPayLoadType[i], pFile[i+s32Cnt], &stStream);
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):								s32Ret = SAMPLE_COMM_VENC_SaveStream(enPayLoadType[i], pFile[i+s32Cnt], &stStream);
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):        for (s32Cnt = 0; s32Cnt < 3; s32Cnt++)
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):            if (pFile[i+s32Cnt])
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):                fclose(pFile[i+s32Cnt]);
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):HI_S32 SAMPLE_COMM_VENC_StartGetStream(HI_S32 s32Cnt)
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):    gs_stPara.s32Cnt = s32Cnt;
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):HI_S32 SAMPLE_COMM_VENC_StartGetStream_Svc_t(HI_S32 s32Cnt)
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):    gs_stPara.s32Cnt = s32Cnt;
+---- 96 Matches (63 in 15 files) ----
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):       {1750,        96,             10,            0 },  //100    //                       //                                                
+Ar0130_cmos.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\sensor\ar0130):       {1750,        96,             10,            0 },  //200    // ISO //Thr//var//fix   // ISO //u8LowFreqSlope
+Hi_common.h (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\include):    PT_H264          = 96,			// 表示通过RTP/RTSP协议，视频传输的格式是H.264的
+Hi_srdk_sceneauto.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\src\common):    as16IndexTh[1] = 96;
+Isp_acm_lut.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):            {  20,   48,   96,  110,   52,   53,   38,   24,   22,    9,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,    0,   15,   38,     },
+Isp_acm_lut.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\drv):            {  31,  101,  163,  143,   85,   76,   73,   71,   81,   78,   82,   72,   67,   62,   52,   41,   31,   24,   24,   29,   30,   96,  129,  117,   75,   31,   11,   22,   33,     },
+Isp_gamma.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\algorithms):            0,    16,    32,    48,    64,    80,    96,   112,   128,   144,   160,   176,   192,   208,   224,   240,
+Mpi_isp.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\component\isp\firmware\src\main):           0,    16,    32,    48,    64,    80,    96,   112,   128,   144,   160,   176,   192,   208,   224,   240,
+Sample_comm_venc.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\common):#define Y_PLOAD_TYPE 96 //H.264
+Sample_region.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\region):            stRgnAttr.unAttr.stOverlay.stSize.u32Height = 96;
+Sample_region.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\region):            stRgnAttr.unAttr.stOverlay.stSize.u32Width  = 96;
+Sample_region.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\region):            stRgnAttr.unAttr.stOverlay.stSize.u32Width  = 96;
+Sample_region.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\region):            stRgnAttr.unAttr.stOverlay.stSize.u32Height = 96;
+Sample_region.c (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\region):            stChnAttr.unChnAttr.stOverlayChn.stPoint.s32X = 96*(i+1);
+Sceneauto_222.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):Saturation = 130,130,128,128,120,116,104,96,88,80,72,64,56,56,56,56
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SFS2_2 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):MATH_5 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SBF0_7 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SBF0_8 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SBF0_9 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SHP0_10 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SBF0_10 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SBF1_10 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SHP0_11 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SHP0_12 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SBF0_12 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):SBF1_12 = 96
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):Saturation = 120,116,104,96,88,80,72,64,56,56,56,56,56,56,56,56,
+Sceneauto_34220.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\dv):au8LumThresh = 96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,96,
+Sceneauto_ar0130.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):s32YTFStr_6 =    96
+Sceneauto_ar0130.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):s32YSmthStr_11 =  96
+Sceneauto_ar0130.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):Saturation = 120,116,104,96,88,80,72,64,56,56,56,56,56,56,56,56,
+Sceneauto_ar0130.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):s32YTFStr_6 =    96
+Sceneauto_ar0130.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):s32YTFStr_6 =    96
+Sceneauto_ar0230.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):Saturation = 120,116,104,96,88,80,72,64,56,56,56,56,56,56,56,56,
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):gamma.0_0 = 0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,960,976,992,1008,1024,1040,1056,1072,1088,1104,1120,1136,1152,1168,1184,1200,1216,1232,1248,1264,1280,1296,1312,1328,1344,1360,1376,1392,1408,1424,1440,1456,1472,1488,1504,1520,1536,1552,1568,1584,1600,1616,1632,1648,1664,1680,1696,1712,1728,1744,1760,1776,1792,1808,1824,1840,1856,1872,1888,  
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):gamma.0_1 = 0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,960,976,992,1008,1024,1040,1056,1072,1088,1104,1120,1136,1152,1168,1184,1200,1216,1232,1248,1264,1280,1296,1312,1328,1344,1360,1376,1392,1408,1424,1440,1456,1472,1488,1504,1520,1536,1552,1568,1584,1600,1616,1632,1648,1664,1680,1696,1712,1728,1744,1760,1776,1792,1808,1824,1840,1856,1872,1888,  
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):gamma.0_2 = 0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,960,976,992,1008,1024,1040,1056,1072,1088,1104,1120,1136,1152,1168,1184,1200,1216,1232,1248,1264,1280,1296,1312,1328,1344,1360,1376,1392,1408,1424,1440,1456,1472,1488,1504,1520,1536,1552,1568,1584,1600,1616,1632,1648,1664,1680,1696,1712,1728,1744,1760,1776,1792,1808,1824,1840,1856,1872,1888,  
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):gamma.0_3 = 0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,960,976,992,1008,1024,1040,1056,1072,1088,1104,1120,1136,1152,1168,1184,1200,1216,1232,1248,1264,1280,1296,1312,1328,1344,1360,1376,1392,1408,1424,1440,1456,1472,1488,1504,1520,1536,1552,1568,1584,1600,1616,1632,1648,1664,1680,1696,1712,1728,1744,1760,1776,1792,1808,1824,1840,1856,1872,1888,  
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):s32YTFStr_4 =    96
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):s32YTFStr_6 =    96
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):Saturation = 120,116,104,96,88,80,72,64,56,56,56,56,56,56,56,56,
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):gamma_0 = 0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,960,976,992,1008,1024,1040,1056,1072,1088,1104,1120,1136,1152,1168,1184,1200,1216,1232,1248,1264,1280,1296,1312,1328,1344,1360,1376,1392,1408,1424,1440,1456,1472,1488,1504,1520,1536,1552,1568,1584,1600,1616,1632,1648,1664,1680,1696,1712,1728,1744,1760,1776,1792,1808,1824,1840,1856,1872,1888,  
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):s32YTFStr_6 =    96
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):gamma_0 = 0,16,32,48,64,80,96,112,128,144,160,176,192,208,224,240,256,272,288,304,320,336,352,368,384,400,416,432,448,464,480,496,512,528,544,560,576,592,608,624,640,656,672,688,704,720,736,752,768,784,800,816,832,848,864,880,896,912,928,944,960,976,992,1008,1024,1040,1056,1072,1088,1104,1120,1136,1152,1168,1184,1200,1216,1232,1248,1264,1280,1296,1312,1328,1344,1360,1376,1392,1408,1424,1440,1456,1472,1488,1504,1520,1536,1552,1568,1584,1600,1616,1632,1648,1664,1680,1696,1712,1728,1744,1760,1776,1792,1808,1824,1840,1856,1872,1888,  
+Sceneauto_ar0230_wdr.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):s32YTFStr_6 =    96
+Sceneauto_ov9732.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):Saturation = 120,116,104,96,88,80,72,64,56,56,56,56,56,56,56,56,
+Sceneauto_ov9750.ini (c:\winshare\learning_for_project\a0201-hi3518ev200\sample\scene_auto\ini\ipc):Saturation = 120,116,104,96,88,80,72,64,56,56,56,56,56,56,56,56,
+---- av_profile Matches (0 in 0 files) ----
